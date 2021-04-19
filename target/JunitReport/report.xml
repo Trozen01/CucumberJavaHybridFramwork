@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="70.952">
-<testcase classname="Account Page Feature" name="Accounts page title" time="17.707">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="80.476">
+<testcase classname="Account Page Feature" name="Accounts page title" time="26.221">
 <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on Accounts page..............................................passed
 When user gets the title of the page........................................passed
 Then page title should be "My account - My Store"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Account Page Feature" name="Accounts section count" time="13.801">
+<testcase classname="Account Page Feature" name="Accounts section count" time="14.272">
 <system-out><![CDATA[Given user has already logged in to application.............................passed
 Given user is on Accounts page..............................................passed
 Then user gets accounts section.............................................passed
 And accounts section count should be 6......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Contact us Feature" name="Contact us scenario with different set of data" time="21.295">
+<testcase classname="Contact us Feature" name="Contact us scenario with different set of data" time="27.014">
 <system-out><![CDATA[Given user Nevigate to contact us page......................................passed
 When user fills the form from given sheetname "contactus" and rownumber 0...passed
 And user click on send button...............................................passed
 Then It shows a message as "Your message has been successfully sent to our team.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 2" time="12.918">
+<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 2" time="12.939">
 <system-out><![CDATA[Given user Nevigate to contact us page......................................passed
 When user fills the form from given sheetname "contactus" and rownumber 1...passed
 And user click on send button...............................................passed
 Then It shows a message as "Your message has been successfully sent to our team.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 3" time="13.103">
+<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 3" time="15.068">
 <system-out><![CDATA[Given user Nevigate to contact us page......................................passed
 When user fills the form from given sheetname "contactus" and rownumber 2...passed
 And user click on send button...............................................passed
 Then It shows a message as "Your message has been successfully sent to our team.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 4" time="11.319">
+<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 4" time="12.676">
 <system-out><![CDATA[Given user Nevigate to contact us page......................................passed
 When user fills the form from given sheetname "contactus" and rownumber 3...passed
 And user click on send button...............................................passed
 Then It shows a message as "Your message has been successfully sent to our team.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 5" time="11.807">
+<testcase classname="Contact us Feature" name="Contact us scenario with different set of data 5" time="12.282">
 <system-out><![CDATA[Given user Nevigate to contact us page......................................passed
 When user fills the form from given sheetname "contactus" and rownumber 4...passed
 And user click on send button...............................................passed
 Then It shows a message as "Your message has been successfully sent to our team.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login page feature" name="Login page title" time="16.117">
+<testcase classname="Login page feature" name="Login page title" time="23.764">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user gets the title of the page........................................passed
 Then page title should be "Login - My Store"................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login page feature" name="Forgot Password link" time="22.292">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?111&quot;}&#10;  (Session info: chrome=89.0.4389.128)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-INPVF25', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0b3fad3c4f02bbfa452bfc1592b5dc07&#10;*** Element info: {Using=link text, value=Forgot your password?111}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on login page.................................................passed
+<testcase classname="Login page feature" name="Forgot Password link" time="22.937">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?111&quot;}&#10;  (Session info: chrome=89.0.4389.128)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-INPVF25', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5e26c0d357020b05caa4e703ce9dda62&#10;*** Element info: {Using=link text, value=Forgot your password?111}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on login page.................................................passed
 Then forgot your password link should be displayed..........................failed
 
 StackTrace:
@@ -65,8 +65,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-INPVF25', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b3fad3c4f02bbfa452bfc1592b5dc07
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e26c0d357020b05caa4e703ce9dda62
 *** Element info: {Using=link text, value=Forgot your password?111}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,7 +87,7 @@ Session ID: 0b3fad3c4f02bbfa452bfc1592b5dc07
 	at ✽.forgot your password link should be displayed(file:///C:/Jitu/Work/SoftwareTesting/Practical/CucumberJavaHybridFramwork/src/test/resources/AppFeatures/LoginPage.feature:13)
 ]]></failure>
 </testcase>
-<testcase classname="Login page feature" name="Login with correct credentials" time="13.103">
+<testcase classname="Login page feature" name="Login with correct credentials" time="14.149">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When user enters username "dec2020secondbatch@gmail.com"....................passed
 And user enters password "Selenium@12345"...................................passed

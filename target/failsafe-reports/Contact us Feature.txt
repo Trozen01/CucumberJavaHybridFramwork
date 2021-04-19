@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Contact us Feature
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 70.788 s - in Contact us Feature
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.305 s - in Contact us Feature
