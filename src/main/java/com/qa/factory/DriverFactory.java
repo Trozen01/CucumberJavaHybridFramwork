@@ -16,9 +16,9 @@ public class DriverFactory {
 	 * this will return tldriver
 	 * */
 	
-	public WebDriver init_driver(String browser){
+	public WebDriver init_driver(String browser){         // this browser name get from Application hooks..
 		
-		System.out.println("browser value is:-" + browser);
+		System.out.println("browser value is:-" + browser);  
 		
 		if(browser.equals("chrome")){
 			WebDriverManager.chromedriver().setup();       // it use for automate the browser setup in selenium code. it download the latest code for browser.
