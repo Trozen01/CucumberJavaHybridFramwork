@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="497.417">
+<testcase classname="Login page feature" name="Login page title" time="190.798">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user gets the title of the page........................................passed
+Then page title should be "Login - My Store"................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login page feature" name="Forgot Password link" time="118.206">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Forgot your password?111&quot;}&#10;  (Session info: chrome=94.0.4606.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-INPVF25', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ef4b13cd383070de8718ab9f57e38947&#10;*** Element info: {Using=link text, value=Forgot your password?111}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on login page.................................................passed
+Then forgot your password link should be displayed..........................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?111"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-INPVF25', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Trozen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53548}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef4b13cd383070de8718ab9f57e38947
+*** Element info: {Using=link text, value=Forgot your password?111}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.LoginPage.chkForgetPasswordLink(LoginPage.java:30)
+	at StepDefiniation.LoginPageSteps.forgot_your_password_link_should_be_displayed(LoginPageSteps.java:39)
+	at ✽.forgot your password link should be displayed(file:///C:/Jitu/Work/SoftwareTesting/Practical/CucumberJavaHybridFramwork/src/test/resources/AppFeatures/LoginPage.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Login page feature" name="Login with correct credentials" time="148.25">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username "dec2020secondbatch@gmail.com"....................passed
+And user enters password "Selenium@12345"...................................passed
+And user clicks on Login button.............................................passed
+Then user gets the title of the page........................................passed
+And page title should be "My account - My Store"............................passed
+]]></system-out>
+</testcase>
+</testsuite>

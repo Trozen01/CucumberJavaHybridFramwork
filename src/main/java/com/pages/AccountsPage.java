@@ -15,7 +15,7 @@ public class AccountsPage {
 	private By accountsection = By.cssSelector("div#center_column span"); 
 	
 	//2.Constructor Of the page
-	public AccountsPage(WebDriver wdr){     //for Constructor need webdriver and give webdriver to private webdriver(value come from different pagewebdrivefr to this page's webdriver).
+	public AccountsPage(WebDriver wdr){     //for Constructor need webdriver and give webdriver to private webdriver(value come from different page webdriver to this page's webdriver).
 	    this.dr = wdr;
 		
 	}
